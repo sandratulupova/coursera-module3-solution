@@ -1,0 +1,110 @@
+/* Assignment Solution for Module 3 by Aleksandra Tulupova*/
+
+/***** Base Styles *****/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 150%;
+	color: #41584B;
+}
+h1 {
+	
+}
+section {
+	padding: 10px;
+	min-height: 1000px;
+	background-color: #E3F3AC;
+	border: 3px solid #44C662;
+}
+p {
+	
+}
+
+#header-nav {
+	background-color: #F23A3A;
+	border-radius: 0;
+	border: 2px solid #C9182B;
+}
+
+#bs-example-navbar-collapse-1 ul {
+    border: 2px solid #C9182B;
+    color: #C9182B;
+    font-weight: bold;
+    background-color: #FDD9D9;
+    padding: 0;
+}
+
+#button-nav {
+	border-color: #FFFFFF;
+	border-width: 3px;
+}
+.navbar-toggle .icon-bar {
+    width: 28px;
+    height: 4px;
+    border-radius: 0;
+}
+#button-nav:hover, #button-nav:focus {
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+#button-nav .icon-bar {
+	background-color: #FFFFFF;
+}
+
+#button-nav:hover .icon-bar,
+#button-nav:focus .icon-bar {
+	background-color: #F23A3A;	
+}
+#header-nav a.navbar-brand {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-nav li {
+	border: 1px solid #C9182B;
+}
+.navbar-nav li:nth-child(3) {
+	border-bottom: none;
+}
+.navbar-nav li:hover {
+	background-color: #C9182B;
+}
+#header-nav .navbar-nav > li:hover > a {
+	color: #FFFFFF;
+}
+#header-nav .navbar-nav > li > a {
+	color: #C9182B;
+	font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  #main-content .col-xs-12 {
+    padding-right: 65px;
+    padding-left: 65px;
+	}
+.navbar-brand {
+	font-size: 1.7em;
+	padding: 25px 20px;
+	height: 70px;
+	}
+.navbar-toggle {
+	margin-top: 15px;
+	}
+#bs-example-navbar-collapse-1 {
+	background-color: #F23A3A;
+	}
+.container-fluid > .navbar-collapse {
+	margin:0 -32px; 
+	background-color: #F23A3A;
+}
+.navbar-default .navbar-collapse {
+	border-top: 1px solid #C9182B;
+}
+}
