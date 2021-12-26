@@ -112,3 +112,18 @@ p {
     padding-left: 0px;
 }
 }
+
+.container-fluid>.navbar-header {
+
+  margin-right: 0;
+    margin-left: 0;
+}
+
+.container-fluid {padding:0;}
+
+
+@media (min-width: 768px) {
+.navbar>.container-fluid .navbar-brand {
+   margin-left: 0px; 
+  }
+}
